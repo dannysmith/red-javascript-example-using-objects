@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-weight: 100;
+}
+
+.image-container {
+  width: 8rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.6);
+  margin-right: 3rem;
+}
+
+.page-header {
+  display: flex;
+  align-items: flex-end;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 6rem;
+}
+.bucket-list {
+  padding: 2rem;
+}
+
+.bucket-list li {
+  list-style-type: none;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+.bucket-list li:last-child {
+  border-bottom: none;
+}
+
+.friends-container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.friend-box {
+  background: rgba(0, 200, 255, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 200, 255, 0.2);
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.friend-box h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.friend-box img {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
